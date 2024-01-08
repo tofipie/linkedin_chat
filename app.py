@@ -41,13 +41,13 @@ load_dotenv()
 def main():
     st.title("Query your PDF")
     with st.sidebar:
-        st.title('🤗💬 PDF Chat App')
+        st.title('💬 PDF Chat App')
         st.markdown('''
         ## About
         Choose the desired PDF, then perform a query.
         ''')
-
-
+        st.write('Made by [Noa Cohen]
+       
     custom_names = list(pdf_mapping.keys())
 
     selected_custom_name = st.sidebar.selectbox('Choose your PDF', ['', *custom_names])
