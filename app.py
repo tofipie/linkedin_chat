@@ -46,7 +46,7 @@ def main():
         ## About
         Choose the desired PDF, then perform a query.
         ''')
-        st.write('Made by [Noa Cohen]
+        st.write('Made by [Noa Cohen]')
        
     custom_names = list(pdf_mapping.keys())
 
